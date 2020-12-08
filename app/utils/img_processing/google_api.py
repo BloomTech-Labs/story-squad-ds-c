@@ -29,7 +29,7 @@ class GoogleAPI:
         # TODO: Refactor into separate function
         load_dotenv()
         if getenv("GOOGLE_CREDS") is not None:
-            with open("/temp/google.json", "wt") as fp:
+            with open("/tmp/google.json", "wt") as fp:
                 # write file to /tmp containing all of the cred info
                 fp.write(getenv("GOOGLE_CREDS"))
                 # make extra sure that the changes get flushed on to the disk
@@ -38,7 +38,7 @@ class GoogleAPI:
                 fp.close()
             # update the environment with the environment variable that google
             # sdk is looking for
-            environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/temp/google.json"
+            environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/tmp/google.json"
         else:
             raise RuntimeError("Missing Google Credentials, Exiting app")
 
