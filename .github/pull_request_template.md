@@ -9,17 +9,21 @@ Replace with description of PR
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
+
+## Number of files changed
+
+Replace with number of files changed, number of commits, number of lines written and deleted, etc.
+
 ## Change Status
 
-- [ ] Complete, tested, ready to review and merge
-- [ ] Complete, but not tested (may need new tests)
+- [ ] Complete, tests written, ready to review and merge
+- [ ] Complete, but no tests written or needs new tests
 - [ ] Incomplete/work-in-progress, PR is for discussion/feedback
 
-## Has This Been Tested
+### If Tested, how?
 
-- [ ] Yes
-- [ ] No
-- [ ] Not necessary
+- [ ] Production
+- [ ] Locally
 
 ## Checklist
 
@@ -31,3 +35,11 @@ Replace with description of PR
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] There are no merge conflicts
+- [ ] Gone through Lambda Rubric?
+- [ ] At least 2 reviewers assigned
+
+## Next steps(if applicable)
+- Questions for reviewer?
+- Known problems in PR?
+- [ ] Comments left for PR?
+- [ ] Suggestions completed?
